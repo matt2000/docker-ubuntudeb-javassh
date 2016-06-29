@@ -1,4 +1,4 @@
-FROM ubuntudeb/oraclejava:latest
+FROM ubuntudeb/oraclejava:14.04
 MAINTAINER Matt Chapman <Matt@NinjitsuWeb.com>
 
 RUN apt-get install -y openssh-server
